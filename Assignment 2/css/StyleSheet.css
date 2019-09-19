@@ -1,0 +1,15 @@
+#content{
+  text-align: justify;
+  margin-left: 12px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+table, th, td {
+   border-collapse: collapse;
+   width: 35%;
+   border: 1px solid black;
+   padding-bottom: 12px;
+   border-color: black;
+}
