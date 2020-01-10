@@ -9,9 +9,9 @@
 
 <?php
 $host = "localhost";
-$username = "minhcybc_cst8238";
+$username = "minhocnz_cst8238";
 $password = "cst@8238";
-$database = "minhcybc_cst8238";
+$database = "minhocnz_cst8238";
 $dbConnection = mysqli_connect($host, $username, $password);
 if(!$dbConnection)
    die("Could not connect to the database.");
