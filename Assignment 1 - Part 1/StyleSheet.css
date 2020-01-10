@@ -1,0 +1,219 @@
+body{
+  font-family: "Helvetica";
+  background-color: LightGray;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  display: inline-block;
+  margin-bottom: auto;
+}
+
+#pic1{
+  margin-left: 400px;
+  margin-top: 25px;
+}
+
+#pic2{
+  margin-left: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#pic3{
+  margin-left: 350px;
+  margin-top: 25px;
+  height: 50%;
+  width: 50%;
+}
+
+#pic4{
+  margin-left: 530px;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+
+#contactBox{
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+#spancontactBox{
+  padding-top: 25px;
+  padding-left:45px;
+  position: relative;
+}
+
+#header{
+  background-color: white;
+  font-size: 12px;
+}
+
+#footer{
+  position: fixed;
+  bottom:0;
+  background-color: white;
+  right: 0;
+  left: 0;
+  font-size: 12px;
+  height: 30px;
+}
+
+#content{
+  text-align: justify;
+  margin-left: 12px;
+}
+
+#logo{
+  width: 15%;
+  height: auto;
+  padding-left: 15px;
+}
+
+#title{
+  vertical-align: 30px;
+  margin-left: 10px;
+}
+
+#d1{
+  margin-right:10px;
+}
+
+#p1{
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+#sponsor{
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  height: 160px;
+  margin-left: 500px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+#spanSponsor{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#provertyProject{
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  height: 160px;
+  margin-left: 500px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+#spanprovertyProject{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#womenProject{
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  height: 160px;
+  margin-left: 500px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+#spanwomenProject{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#homeProject{
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  height: 160px;
+  margin-left: 500px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+}
+
+#spanhomeProject{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#menu {
+    float: right;
+    overflow: auto;
+    margin-right:12px;
+    font: "Verdana";
+    width: 130px;
+    margin-top: 60px;
+}
+
+#menu .menuOption {
+    border: solid;
+    outline: solid;
+    color:white;
+    font-family: "Verdana";
+    margin-left: 5px;
+    position: absolute;
+}
+
+.menuOption {
+    display: none;
+    position: relative;
+    width: 115px;
+    height: 180px;
+    background: white;
+    border: 10px black;
+}
+
+.menuOption a {
+    float: left;
+    color: black;
+    padding: 14px 2px;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+}
+
+.menuButton{
+  padding:8px;
+  background-color:white;
+  width:130px;
+  border-style: groove;
+}
+
+.menuOption a:hover {
+    background-color: salmon;
+    color: white;
+    height: 5px;
+}
+
+#menu:hover .menuOption {
+    display: block;
+}
+
+table {
+	font-family: times, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid black;
+  padding-bottom: 12px;
+}
+
+dd {
+    display: list-item;
+    list-style-type: disc;
+}
