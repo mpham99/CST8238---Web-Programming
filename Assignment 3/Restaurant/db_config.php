@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "minhocnz_cst8238";
 $password = "cst8238";
-$dbname = "minhocnz_cst8238;
+$dbname = "minhocnz_cst8238";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
